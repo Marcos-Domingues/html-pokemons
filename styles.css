@@ -1,17 +1,52 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+/* Color Pallet*/
+/* #C95641 */
+/* #DCD3B2 */
+/* #C9BB62 */
+/* body: #2C2A2D */
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+/* .container{
+    background-color: #DCD3B2;
+} */
+.bg-light{
+    background-color: #C95641 !important;
 }
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.btn-outline-success{
+    border-color:#DCD3B2;
+    color: #DCD3B2;
+}
+.btn-outline-success:hover{
+    background-color: #DCD3B2;
+    border-color:#DCD3B2; 
+}
+a.nav-link{
+    color: #C9BB62 !important;
+    font-size: 14px;
+    font-weight: 500;
+    width: 200px;
+}
+body{
+    background-color: #2C2A2D;
+}
+.table-dark{
+    background-color: #DCD3B2;
+    color: #C95641;
+}
+.table-dark thead th,.table-dark tr th, .table-dark tr td{
+    border-color: #DCD3B2 !important;
+}
+.cabecalho{
+    background-color: #2C2A2D;
+    color: #C9BB62;
+    text-align: center;
+}
+.cabecalho h3{
+    margin: 100px 0;
+}
+.table {
+    border-radius: 5px;
+}
+.star{
+    height: 15px;
+    width: 15px;
+    text-align: center;
 }
